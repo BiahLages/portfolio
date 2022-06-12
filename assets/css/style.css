@@ -32,6 +32,14 @@ li.menu {
     list-style: none;
 }
 
+li.menu:hover {
+    transform: scale(1.2);
+}
+
+button#language:hover {
+    transform: scale(1.2);
+}
+
 li.menu a {
     text-decoration: none;
     color: #7e57c2;
@@ -48,7 +56,7 @@ button#language {
 header div#segunda_linha {
     display: flex;
     justify-content: space-evenly;
-    
+    padding: 0 20px 0 20px;    
 }
 
 header div img {
@@ -81,8 +89,20 @@ div#contato_lista {
     list-style: none;
 }
 
-div#contato_lista a {
+div#contato_lista div {
+    transition: transform .4s ease-in-out;
+}
+
+div#contato_lista div:hover {
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+}
+
+div#contato_lista div {
     text-align: center;
+}
+
+div#contato_lista div a {
     text-decoration: none;
     color: #1f0322;
     
@@ -105,9 +125,16 @@ article.cards {
 }
 
 div.card_image {
-    width: 250px;
-    
+    width: 250px; 
+    transition: transform .5s ease-in-out;  
+    box-shadow: 5px 5px 5px 5px rgb(131, 95, 181);
 }
+
+div.card_image:hover {
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+}
+
 div.card_image img {
     width: 100%;
 }
@@ -135,4 +162,62 @@ footer {
 footer a {
     text-decoration: none;
     color: #1f0322;    
+}
+
+footer a:hover {
+    color: #decdf5;
+}
+
+@media only screen and (max-width: 280px) {
+    #primeira_linha{
+        flex-wrap: wrap;
+    }
+    #segunda_linha{
+        flex-wrap: wrap;
+        padding-left: 25px;
+    }
+    #nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card_image{
+        padding-bottom: 30px;
+    }
+    footer {
+        flex-wrap: wrap;
+    } 
+}
+
+@media only screen and (max-width: 472px) {
+    #primeira_linha{
+        flex-wrap: wrap;
+    }
+    #segunda_linha{
+        flex-wrap: wrap;
+        padding-left: 25px;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card_image{
+        padding-bottom: 30px;
+    }
+    footer {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #segunda_linha{
+        padding-left: 25px;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card_image{
+        padding: 0 10px 30px 10px;
+    }
 }
