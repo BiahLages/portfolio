@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    
+    background: linear-gradient(to bottom right, #f8f1ff, #decdf5, #7e57c2);
+}
+
+div#apresentacao {
+    padding: 80px 60px 0 0;
+}
+
+header div#primeira_linha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #7e57c2;
+    padding: 10px 5% 10px 5%;
+}
+
+header div nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    list-style: none;
+}
+
+li.menu {
+    list-style: none;
+}
+
+li.menu a {
+    text-decoration: none;
+    color: #7e57c2;
+}
+
+button#language {
+    background: none;
+    border: none;    
+    color: #7e57c2;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+header div#segunda_linha {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+header div img {
+    height: 30vh;
+}
+
+header div div#apresentacao {
+    color: #211165
+}
+
+section#sobre {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 80px 20% 20px 20%;
+    margin: 0;
+    text-align: center;
+    color:#211165;
+}
+
+section#contato {
+    padding: 20px 20% 20px 20%;
+}
+
+div#contato_lista {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+div#contato_lista a {
+    text-align: center;
+    text-decoration: none;
+    color: #1f0322;
+    
+}
+
+div#contato_lista img {
+    height: 100%;
+}
+
+section#projetos {
+    text-align: center;
+    padding: 150px 0 20px 0;
+    color:#211165;
+}
+
+article.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+div.card_image {
+    width: 250px;
+    
+}
+div.card_image img {
+    width: 100%;
+}
+
+div.card_image a {
+    text-decoration: none;
+    color: #1f0322;
+}
+
+section#skills {
+    text-align: center;
+    padding: 150px 0 40px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:#211165;
+    background-color: #7e57c2;
+    padding: 16px;
+    gap: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1f0322;    
+}
