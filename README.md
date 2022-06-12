@@ -14,7 +14,7 @@ As ferramentas usadas para este projeto são:
 </div>
 
 ## Link do GitHub Pages
-
+https://biahlages.github.io/portfolio/
 
 ## Contato
 
