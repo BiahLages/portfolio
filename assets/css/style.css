@@ -221,5 +221,6 @@ footer a:hover {
     }
     .card_image{
         padding: 0 10px 30px 10px;
+        margin-bottom: 40px;
     }
 }
