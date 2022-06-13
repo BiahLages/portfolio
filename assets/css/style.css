@@ -126,6 +126,7 @@ article.cards {
 
 div.card_image {
     width: 250px; 
+    padding: 5px;
     transition: transform .5s ease-in-out;  
     box-shadow: 5px 5px 5px 5px rgb(131, 95, 181);
 }
