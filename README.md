@@ -14,7 +14,8 @@ As ferramentas usadas para este projeto são:
 </div>
 
 ## Link do GitHub Pages
-https://biahlages.github.io/portfolio/
+<a href="https://biahlages.github.io/portfolio/" target="_blank"><img src="./assets/image.icone.ico" style="width:10%">
+
 
 ## Contato
 
